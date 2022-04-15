@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  deploy:
+  beta_apk:
     name: Upload android beta to Firebase App Distribution.
     needs: [build]
     runs-on: ubuntu-latest
